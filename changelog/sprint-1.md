@@ -16,7 +16,7 @@
 
 | ID  | Title/Desc | Asignee | Status |
 | --- | ---------- | ------- | ------ |
-| 1.1 | Assign repo dan buat planning | All | 
+| 1.1 | Assign repo dan buat planning | All | FAILED |
 
 ## Retrospective 
 
