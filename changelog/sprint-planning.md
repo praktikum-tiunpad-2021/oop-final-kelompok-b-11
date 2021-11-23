@@ -12,9 +12,9 @@
 | ID  | Title/Desc | Asignee | 
 | --- | ---------- | ------- | 
 | 1.1 | Assign repo dan buat planning | All | 
-| 2.1 | Buat UML Diagram Fifteen Puzzle | Andaru | 
+| 2.1 | Buat UML Diagram Fifteen Puzzle | Kamal | 
 | 2.2 | Buat Class Puzzle dengan atributnya | Attila | 
-| 2.3 | Buat method untuk membuat papan puzzle | Kamal | 
+| 2.3 | Buat method untuk membuat papan puzzle | Andaru | 
 | 2.4 | Buat sistem new game, reset, shuffle | Kamal | 
 | 3.1 | Buat listener klik-an mouse | Andaru | 
 | 3.2 | Buat method untuk mengecek apakah puzzle dapat diselesaikan | Attila | 
