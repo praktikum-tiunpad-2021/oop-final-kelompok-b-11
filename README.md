@@ -9,13 +9,13 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
 ## Credits
 | NPM           | Name        |
 | ------------- |-------------|
-| 140810xx00xx  | John Doe    |
-| 140810xx00xx  | Jane Doe    |
-| 140810xx00xx  | Lorem Ipsum |
+| 140810200020  | Andaru Danurdara Wibisana    |
+| 140810200032  | Irfan Kamal    |
+| 140810200048  | Muhammad Attila An Naufal |
 
 ## Change log
 - **[Sprint Planning](changelog/sprint-planning.md) - (planning date)** 
-   -  Short changes 1
+   - Short changes 1
    - Short changes 2
 
 - **[Sprint 1](changelog/sprint-1.md) - (date from x until x)** 
