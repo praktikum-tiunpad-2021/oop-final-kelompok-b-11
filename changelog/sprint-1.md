@@ -25,7 +25,7 @@ Planning memakan waktu lumayan lama karena masih bingung mengenai perancangannya
 ## Next Sprint Backlog (Sprint 2)
 | ID  | Title/Desc | Asignee |
 | --- | ---------- | ------- |
-| 2.1 | Buat UML Diagram Fifteen Puzzle | Andaru | 
+| 2.1 | Buat UML Diagram Fifteen Puzzle | Kamal | 
 | 2.2 | Buat Class Puzzle dengan atributnya | Attila | 
-| 2.3 | Buat method untuk membuat papan puzzle | Kamal | 
+| 2.3 | Buat method untuk membuat papan puzzle | Andaru | 
 | 2.4 | Buat sistem new game, reset, shuffle | Kamal | 
