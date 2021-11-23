@@ -1,5 +1,5 @@
 # Scrum Report (Sprint 1)
-| From dd/mm/yyyy to dd/mm/yyyy
+| From 24/11/2021 to 30/11/2021
 
 ## Team (Insert your name)
 | NPM           | Name        |
@@ -10,7 +10,7 @@
 ## Sprint Overview
 | Planned (n)   | Completed (n) |
 | ------------- |-------------- |
-| n             | n             |
+| 3             | n             |
 
 ## Sprint 1 Backlog
 
