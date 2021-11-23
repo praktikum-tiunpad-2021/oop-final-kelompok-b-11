@@ -1,5 +1,5 @@
 # Scrum Report (Sprint 1)
-| From 24/11/2021 to 30/11/2021
+| From 17/11/2021 to 23/11/2021
 
 ## Team (Insert your name)
 | NPM           | Name        |
@@ -10,20 +10,20 @@
 ## Sprint Overview
 | Planned (n)   | Completed (n) |
 | ------------- |-------------- |
-| 3             | -             |
+| 1             | 0             |
 
 ## Sprint 1 Backlog
 
 | ID  | Title/Desc | Asignee | Status |
 | --- | ---------- | ------- | ------ |
-| 1.1 | Buat UML Diagram Fifteen Puzzle | Andaru | - |
-| 1.2 | Buat Class Puzzle dengan atributnya | Attila | - | 
-| 1.3 | Buat method untuk membuat papan puzzle | Kamal | - |
+| 1.1 | Assign repo dan buat planning | All | 
 
 ## Retrospective 
 
--
+Planning memakan waktu lumayan lama karena masih bingung mengenai perancangannya dan masih kurang pemahaman tentang struktur programnya
 
 ## Next Sprint Backlog (Sprint 2)
-
--
+| 2.1 | Buat UML Diagram Fifteen Puzzle | Andaru | 
+| 2.2 | Buat Class Puzzle dengan atributnya | Attila | 
+| 2.3 | Buat method untuk membuat papan puzzle | Kamal | 
+| 2.4 | Buat sistem new game, reset, shuffle | Kamal | 
