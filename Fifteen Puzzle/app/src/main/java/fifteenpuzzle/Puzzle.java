@@ -11,6 +11,8 @@ public class Puzzle{
     private int sizeAllTile;
     private int[] value;
     private int numberOfTile;
+    private int numberOfMove;
+    private boolean isSolved;
 
     public Puzzle(int size){
         this.size = size;
@@ -28,9 +30,9 @@ public class Puzzle{
             this.value[i] = i;
         }
 
-        while (!isSolvable(this.value)){
-            shuffle(this.value); //Method selama arraynya belum solvable, arraynya dishuffle terus
-        }
+        do { 
+            shuffle(this.value); //Method buat shuffle
+        } while (!isSolvable(this.value)); //Method selama arraynya belum solvable, arraynya dishuffle terus
     }
 
     public void shuffle(int[] value){
@@ -94,9 +96,73 @@ public class Puzzle{
     }
 
     public void newGame(){
-        this.value = new int[this.numberOfTile + 1];
-        this.drawGrid();
+        this.value = new int[this.numberOfTile + 1]; //Mengisi array dengan 0
+        this.drawGrid(); 
     }
 
+    public void isSolved(){ // solved ketika urutannya = 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,0
+
+        // temp = duplikasi dari array value
+        int[] temp = new int[this.numberOfTile + 1];
+        for (int i=0; i < temp.length; i++){
+            temp[i] = this.value[i];
+        }
+        
+        for (int i=0; i < temp.length-1; i++){ // ngecek  urutan value[i] = i+1 dari 1->15 (0 tidak dihitung)
+            if (temp[i] != i+1){ 
+                this.isSolved = false;
+                break;
+            }
+            else{
+                this.isSolved = true;
+            }
+        }
+
+        
+    }
+
+    public void move(int direction){
+        int blank = 0;
+        int temp;
+
+        for (int i=0; i < this.value.length; i++){
+            if (this.value[i] == 0){
+                blank = i;
+            }
+        }
+
+        if (direction == 1){ //up
+            if (blank >= this.size){
+                temp = this.value[blank];
+                this.value[blank] = this.value[blank - this.size];
+                this.value[blank - this.size] = temp;
+                this.numberOfMove++;
+            }
+        }
+        else if (direction == 2){ //down
+            if (blank < this.numberOfTile - this.size){
+                temp = this.value[blank];
+                this.value[blank] = this.value[blank + this.size];
+                this.value[blank + this.size] = temp;
+                this.numberOfMove++;
+            }
+        }
+        else if (direction == 3){ //left
+            if (blank % this.size != 0){
+                temp = this.value[blank];
+                this.value[blank] = this.value[blank - 1];
+                this.value[blank - 1] = temp;
+                this.numberOfMove++;
+            }
+        }
+        else if (direction == 4){ //right
+            if ((blank + 1) % this.size != 0){
+                temp = this.value[blank];
+                this.value[blank] = this.value[blank + 1];
+                this.value[blank + 1] = temp;
+                this.numberOfMove++;
+            }
+        }
+    }
     
 }
