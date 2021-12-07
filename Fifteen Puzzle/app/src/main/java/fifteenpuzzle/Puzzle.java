@@ -5,8 +5,7 @@ import java.util.Random;
 
 public class Puzzle{
     private int size;
-    private int dimension;
-    private int margin;
+    private int dimension = 550;
     private int sizeTile;
     private int sizeAllTile;
     private int[] value;
@@ -17,15 +16,20 @@ public class Puzzle{
     public Puzzle(int size){
         this.size = size;
         this.dimension = 460;
-        this.margin = 30;
+        // this.margin = 30;
         this.numberOfTile = (this.size * this.size) - 1;
         this.value = new int[this.numberOfTile + 1];
-        this.sizeAllTile = (this.dimension - (2 * this.margin));
-        this.sizeTile = this.sizeAllTile / this.size;
+        // this.sizeAllTile = (this.dimension - (2 * this.margin));
+        // this.sizeTile = this.sizeAllTile / this.size;
+        this.initGrid();
         newGame(); //Method buat start new game
     }
 
-    public void drawGrid(){
+    public int getValue(int x, int y){
+        return this.value[x*this.size + y];
+    }
+
+    public void initGrid(){
         for (int i=0; i < this.value.length; i++){
             this.value[i] = i;
         }
@@ -97,7 +101,7 @@ public class Puzzle{
 
     public void newGame(){
         this.value = new int[this.numberOfTile + 1]; //Mengisi array dengan 0
-        this.drawGrid(); 
+        // this.drawGrid(); 
     }
 
     public void isSolved(){ // solved ketika urutannya = 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,0

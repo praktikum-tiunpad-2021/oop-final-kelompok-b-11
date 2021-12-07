@@ -3,33 +3,51 @@
  */
 package fifteenpuzzle;
 
-import java.io.IOException;
 import javafx.application.Application;
-import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
-import javafx.scene.layout.StackPane;
 
 public class fifteen_puzzle extends Application{
-    private static int size;
+ // window size
+ private static final int WINDOW_WIDTH = 400;
+ private static final int WINDOW_HEIGHT = 400;
 
-    public static void main(String[] args) {
-        if (args[0] != null) {
-            size = Integer.parseInt(args[0]);
-        }
-        else{
-            size = 4;
-        }
-        launch(args);
-    }
+ // game field size
+ private static int WIDTH = 4;
+ private static int HEIGHT = 4;
 
-    public void start(Stage stage) throws Exception {
-        // Puzzle puzzle = new Puzzle(size);
-        stage.setTitle("Fifteen Puzzle");
-        stage.setResizable(false);
-        Scene scene = new Scene(new StackPane(), 460, 700);
-        stage.setScene(scene);
-        stage.show();
-    }
+ private Parent createContent() {
+     Pane root = new Pane();
+     root.setPrefSize(WINDOW_WIDTH,WINDOW_HEIGHT);
+
+     // set tile size to fit all the tiles in the window
+     Tile.TILE_SIZE = WINDOW_WIDTH / WIDTH;
+
+     // create a new game field using WIDTH and HEIGHT constants
+     Field gameField = new Field(WIDTH, HEIGHT);
+
+     // add game field to the window
+     root.getChildren().add(gameField);
+
+     return root;
+ }
+
+ @Override
+ public void start(Stage primaryStage) {
+     primaryStage.setTitle("Fifteen");
+     primaryStage.setScene( new Scene( createContent()));
+     primaryStage.show();
+ }
+
+ // entry point of program
+ public static void main(String[] args) {
+     if(args.length == 1){
+        WIDTH = Integer.parseInt(args[0]);
+        HEIGHT = Integer.parseInt(args[0]);
+     }
+     launch(args);
+ }
+
 }
