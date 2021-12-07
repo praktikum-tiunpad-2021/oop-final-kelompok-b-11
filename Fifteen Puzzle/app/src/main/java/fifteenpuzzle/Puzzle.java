@@ -8,7 +8,7 @@ public class Puzzle{
     private int dimension;
     private int margin;
 
-    private int sizeTile;
+    private int sizePerTile;
     private int sizeAllTile;
     private int[] value;
     private int numberOfTile;
@@ -20,7 +20,7 @@ public class Puzzle{
         this.numberOfTile = (this.size * this.size) - 1;
         this.value = new int[this.numberOfTile + 1];
         this.sizeAllTile = (this.dimension - (2 * this.margin));
-        this.sizeTile = this.sizeAllTile / this.size;
+        this.sizePerTile = this.sizeAllTile / this.size;
         newGame(); //Method buat start new game
     }
 
