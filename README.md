@@ -1,10 +1,10 @@
-# Project Name
+# Fifteen Puzzle
 
 This repository is a final project (Java GUI) from Object-Oriented Programming Class, Teknik Informatika Universitas Padjadjaran. 
 
 [Challenge Guidelines](challenge-guideline.md)
 
-**Please create a description for this project here**
+**Puzzle yang terdiri dari kotak sebanyak n\*n-1 (memiliki angka) yang terbentuk secara acak, dimana cara penyelesaiannya adalah dengan mengurutkan puzzle sesuai urutannya**
 
 ## Credits
 | NPM           | Name        |
