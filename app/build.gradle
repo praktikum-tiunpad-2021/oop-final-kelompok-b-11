@@ -41,5 +41,5 @@ testing {
 
 application {
     // Define the main class for the application.
-    mainClass = 'fifteenpuzzle.fifteen_puzzle'
+    mainClass = 'fifteenpuzzle.Main'
 }
