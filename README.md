@@ -48,7 +48,7 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
 - **Field.java** : Class untuk papan puzzle dan algoritma program
 - **Tile.java** : Class untuk struktur dari tile-tile puzzle
 
-UML image here
+![UML](UML_FifteenPuzzle.drawio.png)
 
 ## Notable Assumption and Design App Details
 
