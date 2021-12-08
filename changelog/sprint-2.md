@@ -1,7 +1,7 @@
 # Scrum Report (Sprint 2)
 | From 24/11/2021 to 01/12/2021
 
-## Team (Insert your name)
+## Team 11
 | NPM           | Name        |
 | ------------- |-------------|
 | 140810200020  | Andaru Danurdara Wibisana    |
