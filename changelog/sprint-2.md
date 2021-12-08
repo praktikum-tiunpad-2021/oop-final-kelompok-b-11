@@ -11,7 +11,7 @@
 ## Sprint Overview
 | Planned (n)   | Completed (n) |
 | ------------- |-------------- |
-| n             | n             |
+| 4             | 2             |
 
 ## Sprint 2 Backlog
 
@@ -27,6 +27,8 @@
 Banyak yang belum kelar karena kendala luar
 
 ## Next Sprint Backlog (Sprint 3)
+| ID  | Title/Desc | Asignee |
+| --- | ---------- | ------- |
 | 3.1 | Buat listener klik-an mouse | Andaru | 
 | 3.2 | Buat method untuk mengecek apakah puzzle dapat diselesaikan | Attila | 
 | 3.3 | Buat method untuk memeriksa apakah puzzle telah diselesaikan | Andaru | 
