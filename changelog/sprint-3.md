@@ -11,16 +11,22 @@
 ## Sprint Overview
 | Planned (n)   | Completed (n) |
 | ------------- |-------------- |
-| n             | n             |
+| 6             | 6             |
 
 ## Sprint 3 Backlog
 
 | ID  | Title/Desc | Asignee | Status |
 | --- | ---------- | ------- | ------ |
-| 3.1 | Preparing the x | Jane Doe | DONE |
-| 3.2 | Make the x | John Doe | FAILED |
+| 2.1 | Buat UML Diagram Fifteen Puzzle | Kamal | DONE |
+| 2.4 | Buat sistem new game, reset, shuffle | Kamal | DONE |
+| 3.1 | Buat listener klik-an mouse | Andaru | DONE |
+| 3.2 | Buat method untuk mengecek apakah puzzle dapat diselesaikan | Attila | DONE |
+| 3.3 | Buat method untuk memeriksa apakah puzzle telah diselesaikan | Andaru | DONE |
+| 3.4 | Buat method untuk menampilkan GUI | Attila | DONE |
+| 3.5 | (Opsional) Buat start page | ? | CANCELED |
+| 3.6 | (Opsional) Buat sistem untuk menampilkan skor (jumlah move/waktu menyelesaikan puzzle) | ? | CANCELED |
 
 ## Retrospective 
 
-Sprint kemarin dianggap terlalu sedikit sehingga diperlukan adanya penyesuaian tugas. Lorem ipsum dolor sit amet
+Sprint minggu 3 mengejar semua ketertinggalan sehingga banyak bagian yang kurang maksimal dan planning opsional dibatalkan
 
