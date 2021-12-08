@@ -14,17 +14,17 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
 | 140810200048  | Muhammad Attila An Naufal |
 
 ## Change log
-- **[Sprint Planning](changelog/sprint-planning.md) - (planning date)** 
+- **[Sprint Planning](changelog/sprint-planning.md) - (17/11/2021)** 
    - Berusaha mencari informasi dan referensi mengenai Gradle dan JavaFX
 
-- **[Sprint 1](changelog/sprint-1.md) - (date from x until x)** 
+- **[Sprint 1](changelog/sprint-1.md) - (From 17/11/2021 to 23/11/2021)** 
    - Assign repo dan buat planning
 
-- **[Sprint 2](changelog/sprint-2.md) - (date from x until x)** 
+- **[Sprint 2](changelog/sprint-2.md) - (From 24/11/2021 to 01/12/2021)** 
    - Membuat class puzzle dengan atributnya
    - Membuat method pembuatan papan puzzle
    
-- **[Sprint 3](changelog/sprint-3.md) - (date from x until x)** 
+- **[Sprint 3](changelog/sprint-3.md) - (From 01/12/2021 to 08/12/2021)** 
    - Membuat UML yang sebelumnya direncanakan sudah jadi di minggu lalu
    - Membuat sistem new game, reset, serta shuffle yang juga sebelumnya direncanakan sudah selesai minggu lalu
    - Membuat listener mouse
